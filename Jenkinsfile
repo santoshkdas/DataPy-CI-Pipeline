@@ -6,7 +6,7 @@ agent any
 stage ("Install Application Dependencies") {
         steps{
               sh '''
-                   C:\Windows\System32\pip install --user -r requirements.txt
+                   C:/Windows/System32/pip install --user -r requirements.txt
                   
               '''
               }
