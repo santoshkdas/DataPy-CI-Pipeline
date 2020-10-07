@@ -6,9 +6,6 @@ agent any
 stage ("Install Application Dependencies") {
         steps{
               sh '''
-              sudo pip install virtualenv
-              virtualenv venv --distribute
-              . venv/bin/activate 
               pip install --user -r requirements.txt
                   
               '''
