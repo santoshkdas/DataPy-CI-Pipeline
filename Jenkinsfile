@@ -21,18 +21,18 @@ stage ("Install Application Dependencies") {
 //}
 
 
-stage('Unit Test') {
-       steps {
-           sh '''
-           python test.py
-           '''
-       }
-       post {
-           always {
-           junit 'test-reports/*.xml'
-           }
-       }
-}
+//stage('Unit Test') {
+  //     steps {
+    //       sh '''
+      //     python test.py
+        //   '''
+       //}
+       //post {
+         //  always {
+           //junit 'test-reports/*.xml'
+           //}
+       //}
+//}
 
       stage('Build Artifact') {
                   when {
