@@ -7,4 +7,3 @@ Werkzeug==0.14.1
 xmlrunner==1.7.7
 wheel==0.32.2
 setuptools==18.5
-python -m pip install --upgrade pip
