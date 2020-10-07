@@ -12,13 +12,13 @@ stage ("Install Application Dependencies") {
               }
        }
 
-stage('Linting') {
-        steps {
-               sh '''
-                     pylint simple_rest.py
-               '''
-              }
-}
+//stage('Linting') {
+ //       steps {
+  //             sh '''
+   //                  pylint simple_rest.py
+    //           '''
+     //         }
+//}
 
 
 stage('Unit Test') {
